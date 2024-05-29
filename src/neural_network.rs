@@ -29,6 +29,7 @@ impl NeuralNetwork {
             output_size,
             weights_input_hidden,
             weights_hidden_output,
+            
             biases_hidden,
             biases_output,
         }
@@ -107,6 +108,7 @@ impl NeuralNetwork {
         }
     }
 }
+
 
 
 
